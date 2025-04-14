@@ -49,7 +49,7 @@ const Map = () => {
     >
       <TileLayer
     attribution='&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
-    url={`https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png&api_key=${import.meta.env.VITE_MAP_API}`}
+    url={`https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png?api_key=${import.meta.env.VITE_MAP_API}`}
   />
       {locations.map((location) => {
 
